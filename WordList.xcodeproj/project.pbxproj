@@ -8,13 +8,20 @@
 
 /* Begin PBXBuildFile section */
 		3D05A7B2246CBA480050F46E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D05A7B1246CBA480050F46E /* AppDelegate.swift */; };
-		3D05A7B4246CBA480050F46E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D05A7B3246CBA480050F46E /* SceneDelegate.swift */; };
 		3D05A7B6246CBA480050F46E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D05A7B5246CBA480050F46E /* ViewController.swift */; };
 		3D05A7B9246CBA480050F46E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D05A7B7246CBA480050F46E /* Main.storyboard */; };
 		3D05A7BB246CBA500050F46E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D05A7BA246CBA500050F46E /* Assets.xcassets */; };
 		3D05A7BE246CBA500050F46E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D05A7BC246CBA500050F46E /* LaunchScreen.storyboard */; };
 		3D05A7C9246CBA500050F46E /* WordListTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D05A7C8246CBA500050F46E /* WordListTests.swift */; };
 		3D05A7D4246CBA500050F46E /* WordListUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D05A7D3246CBA500050F46E /* WordListUITests.swift */; };
+		3D05A7E5246CBAC60050F46E /* word_blank.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D05A7E2246CBAC60050F46E /* word_blank.png */; };
+		3D05A7E6246CBAC60050F46E /* fin.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D05A7E3246CBAC60050F46E /* fin.png */; };
+		3D05A7E7246CBAC60050F46E /* title_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D05A7E4246CBAC60050F46E /* title_logo.png */; };
+		3D05A7E9246D0C340050F46E /* QuestionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D05A7E8246D0C340050F46E /* QuestionViewController.swift */; };
+		3D05A7EB246D0C4C0050F46E /* FinishViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D05A7EA246D0C4C0050F46E /* FinishViewController.swift */; };
+		3D05A7ED246D0C640050F46E /* ListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D05A7EC246D0C640050F46E /* ListTableViewController.swift */; };
+		3D05A7EF246D0C7A0050F46E /* AddViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D05A7EE246D0C7A0050F46E /* AddViewController.swift */; };
+		3D05A7F1246D327B0050F46E /* ListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D05A7F0246D327B0050F46E /* ListTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,7 +44,6 @@
 /* Begin PBXFileReference section */
 		3D05A7AE246CBA480050F46E /* WordList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WordList.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D05A7B1246CBA480050F46E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		3D05A7B3246CBA480050F46E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		3D05A7B5246CBA480050F46E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		3D05A7B8246CBA480050F46E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3D05A7BA246CBA500050F46E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -49,6 +55,14 @@
 		3D05A7CF246CBA500050F46E /* WordListUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WordListUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D05A7D3246CBA500050F46E /* WordListUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordListUITests.swift; sourceTree = "<group>"; };
 		3D05A7D5246CBA500050F46E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3D05A7E2246CBAC60050F46E /* word_blank.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = word_blank.png; sourceTree = "<group>"; };
+		3D05A7E3246CBAC60050F46E /* fin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fin.png; sourceTree = "<group>"; };
+		3D05A7E4246CBAC60050F46E /* title_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = title_logo.png; sourceTree = "<group>"; };
+		3D05A7E8246D0C340050F46E /* QuestionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionViewController.swift; sourceTree = SOURCE_ROOT; };
+		3D05A7EA246D0C4C0050F46E /* FinishViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinishViewController.swift; sourceTree = "<group>"; };
+		3D05A7EC246D0C640050F46E /* ListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListTableViewController.swift; sourceTree = "<group>"; };
+		3D05A7EE246D0C7A0050F46E /* AddViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddViewController.swift; sourceTree = "<group>"; };
+		3D05A7F0246D327B0050F46E /* ListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,9 +94,9 @@
 			isa = PBXGroup;
 			children = (
 				3D05A7B0246CBA480050F46E /* WordList */,
+				3D05A7AF246CBA480050F46E /* Products */,
 				3D05A7C7246CBA500050F46E /* WordListTests */,
 				3D05A7D2246CBA500050F46E /* WordListUITests */,
-				3D05A7AF246CBA480050F46E /* Products */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,9 +113,14 @@
 		3D05A7B0246CBA480050F46E /* WordList */ = {
 			isa = PBXGroup;
 			children = (
+				3D05A7E1246CBAC60050F46E /* WordList素材 */,
 				3D05A7B1246CBA480050F46E /* AppDelegate.swift */,
-				3D05A7B3246CBA480050F46E /* SceneDelegate.swift */,
 				3D05A7B5246CBA480050F46E /* ViewController.swift */,
+				3D05A7E8246D0C340050F46E /* QuestionViewController.swift */,
+				3D05A7EA246D0C4C0050F46E /* FinishViewController.swift */,
+				3D05A7EC246D0C640050F46E /* ListTableViewController.swift */,
+				3D05A7EE246D0C7A0050F46E /* AddViewController.swift */,
+				3D05A7F0246D327B0050F46E /* ListTableViewCell.swift */,
 				3D05A7B7246CBA480050F46E /* Main.storyboard */,
 				3D05A7BA246CBA500050F46E /* Assets.xcassets */,
 				3D05A7BC246CBA500050F46E /* LaunchScreen.storyboard */,
@@ -126,6 +145,16 @@
 				3D05A7D5246CBA500050F46E /* Info.plist */,
 			);
 			path = WordListUITests;
+			sourceTree = "<group>";
+		};
+		3D05A7E1246CBAC60050F46E /* WordList素材 */ = {
+			isa = PBXGroup;
+			children = (
+				3D05A7E2246CBAC60050F46E /* word_blank.png */,
+				3D05A7E3246CBAC60050F46E /* fin.png */,
+				3D05A7E4246CBAC60050F46E /* title_logo.png */,
+			);
+			path = "WordList素材";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -232,8 +261,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3D05A7E5246CBAC60050F46E /* word_blank.png in Resources */,
+				3D05A7E7246CBAC60050F46E /* title_logo.png in Resources */,
 				3D05A7BE246CBA500050F46E /* LaunchScreen.storyboard in Resources */,
 				3D05A7BB246CBA500050F46E /* Assets.xcassets in Resources */,
+				3D05A7E6246CBAC60050F46E /* fin.png in Resources */,
 				3D05A7B9246CBA480050F46E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -259,9 +291,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3D05A7EB246D0C4C0050F46E /* FinishViewController.swift in Sources */,
+				3D05A7F1246D327B0050F46E /* ListTableViewCell.swift in Sources */,
+				3D05A7ED246D0C640050F46E /* ListTableViewController.swift in Sources */,
+				3D05A7EF246D0C7A0050F46E /* AddViewController.swift in Sources */,
 				3D05A7B6246CBA480050F46E /* ViewController.swift in Sources */,
 				3D05A7B2246CBA480050F46E /* AppDelegate.swift in Sources */,
-				3D05A7B4246CBA480050F46E /* SceneDelegate.swift in Sources */,
+				3D05A7E9246D0C340050F46E /* QuestionViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
