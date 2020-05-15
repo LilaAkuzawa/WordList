@@ -21,8 +21,8 @@
 		3D05A7EB246D0C4C0050F46E /* FinishViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D05A7EA246D0C4C0050F46E /* FinishViewController.swift */; };
 		3D05A7EF246D0C7A0050F46E /* AddViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D05A7EE246D0C7A0050F46E /* AddViewController.swift */; };
 		3D05A7F1246D327B0050F46E /* ListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D05A7F0246D327B0050F46E /* ListTableViewCell.swift */; };
+		3D32B20F246E89630045E2EB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D32B20E246E89630045E2EB /* SceneDelegate.swift */; };
 		3DAEDA2C246D5E89005BF302 /* ListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DAEDA2B246D5E89005BF302 /* ListTableViewController.swift */; };
-		3DAEDAB7246E286A005BF302 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DAEDAB6246E286A005BF302 /* SceneDelegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,8 +63,8 @@
 		3D05A7EA246D0C4C0050F46E /* FinishViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinishViewController.swift; sourceTree = "<group>"; };
 		3D05A7EE246D0C7A0050F46E /* AddViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddViewController.swift; sourceTree = "<group>"; };
 		3D05A7F0246D327B0050F46E /* ListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListTableViewCell.swift; sourceTree = "<group>"; };
+		3D32B20E246E89630045E2EB /* SceneDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		3DAEDA2B246D5E89005BF302 /* ListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListTableViewController.swift; sourceTree = "<group>"; };
-		3DAEDAB6246E286A005BF302 /* SceneDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SceneDelegate.swift; path = ../../BarabaraGame/BarabaraGame/SceneDelegate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -125,7 +125,7 @@
 				3D05A7F0246D327B0050F46E /* ListTableViewCell.swift */,
 				3D05A7B7246CBA480050F46E /* Main.storyboard */,
 				3D05A7BA246CBA500050F46E /* Assets.xcassets */,
-				3DAEDAB6246E286A005BF302 /* SceneDelegate.swift */,
+				3D32B20E246E89630045E2EB /* SceneDelegate.swift */,
 				3D05A7BC246CBA500050F46E /* LaunchScreen.storyboard */,
 				3D05A7BF246CBA500050F46E /* Info.plist */,
 			);
@@ -301,7 +301,7 @@
 				3D05A7B2246CBA480050F46E /* AppDelegate.swift in Sources */,
 				3D05A7E9246D0C340050F46E /* QuestionViewController.swift in Sources */,
 				3DAEDA2C246D5E89005BF302 /* ListTableViewController.swift in Sources */,
-				3DAEDAB7246E286A005BF302 /* SceneDelegate.swift in Sources */,
+				3D32B20F246E89630045E2EB /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
