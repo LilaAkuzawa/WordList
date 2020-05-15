@@ -14,7 +14,7 @@ class QuestionViewController: UIViewController {
         @IBOutlet var questionLabel: UILabel!
         @IBOutlet var nextButton: UIButton!
         
-        var inAnsewered: Bool = false
+        var isAnswered: Bool = false
         
         var wordArray: [Dictionary<String,String>] = []
         

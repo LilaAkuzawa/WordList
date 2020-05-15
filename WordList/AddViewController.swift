@@ -19,7 +19,7 @@ class AddViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        if saveData.array(forKey: "WORD")! = nil{
+        if saveData.array(forKey: "WORD") != nil {
             wordArray = saveData.array(forKey: "WORD") as! [Dictionary<String, String>]
         }
     }

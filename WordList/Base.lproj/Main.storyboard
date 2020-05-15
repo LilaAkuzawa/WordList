@@ -28,6 +28,9 @@
                                         <state key="normal" title="START">
                                             <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </state>
+                                        <connections>
+                                            <action selector="startButtonTapped" destination="BYZ-38-t0r" eventType="touchUpInside" id="JpW-jl-axG"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kI8-gA-vW1">
                                         <rect key="frame" x="0.0" y="139" width="180" height="41"/>
@@ -79,23 +82,6 @@
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="135" translatesAutoresizingMaskIntoConstraints="NO" id="MSc-f4-KRC">
-                                <rect key="frame" x="159" y="237" width="57" height="193"/>
-                                <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cjr-E9-geS">
-                                        <rect key="frame" x="0.0" y="0.0" width="57" height="29"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="24"/>
-                                        <nil key="textColor"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="znH-i4-bi4">
-                                        <rect key="frame" x="0.0" y="164" width="57" height="29"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="24"/>
-                                        <nil key="textColor"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                </subviews>
-                            </stackView>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="50" translatesAutoresizingMaskIntoConstraints="NO" id="fiU-gt-5UW">
                                 <rect key="frame" x="37.5" y="183.5" width="300" height="300"/>
                                 <subviews>
@@ -110,6 +96,23 @@
                                     <constraint firstAttribute="width" constant="300" id="Owm-M9-MtV"/>
                                     <constraint firstAttribute="height" constant="300" id="aTv-PC-QYs"/>
                                 </constraints>
+                            </stackView>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="142" translatesAutoresizingMaskIntoConstraints="NO" id="MSc-f4-KRC">
+                                <rect key="frame" x="157" y="231" width="61.5" height="205"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cjr-E9-geS">
+                                        <rect key="frame" x="0.0" y="0.0" width="61.5" height="31.5"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="26"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="znH-i4-bi4">
+                                        <rect key="frame" x="0.0" y="173.5" width="61.5" height="31.5"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="26"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
                             </stackView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rwf-f1-C14">
                                 <rect key="frame" x="97.5" y="553.5" width="180" height="60"/>
@@ -129,10 +132,10 @@
                         </subviews>
                         <color key="backgroundColor" red="0.1227830728" green="0.4298461294" blue="0.063586811810000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="MSc-f4-KRC" firstAttribute="centerX" secondItem="3Eb-Fo-XtA" secondAttribute="centerX" id="3jV-ug-qTY"/>
-                            <constraint firstItem="MSc-f4-KRC" firstAttribute="centerY" secondItem="3Eb-Fo-XtA" secondAttribute="centerY" id="9X7-5Z-1jJ"/>
                             <constraint firstItem="sbm-9a-uWq" firstAttribute="centerX" secondItem="3Eb-Fo-XtA" secondAttribute="centerX" id="Cqt-Ip-3Q7"/>
+                            <constraint firstItem="MSc-f4-KRC" firstAttribute="centerY" secondItem="3Eb-Fo-XtA" secondAttribute="centerY" id="EzI-83-NHV"/>
                             <constraint firstItem="fiU-gt-5UW" firstAttribute="top" secondItem="sbm-9a-uWq" secondAttribute="bottom" constant="70" id="Ole-pr-ZcC"/>
+                            <constraint firstItem="MSc-f4-KRC" firstAttribute="centerX" secondItem="3Eb-Fo-XtA" secondAttribute="centerX" id="P7H-Ll-tvX"/>
                             <constraint firstItem="fiU-gt-5UW" firstAttribute="centerY" secondItem="3Eb-Fo-XtA" secondAttribute="centerY" id="TxF-YD-tj0"/>
                             <constraint firstItem="fiU-gt-5UW" firstAttribute="centerX" secondItem="3Eb-Fo-XtA" secondAttribute="centerX" id="bEp-DD-GsT"/>
                             <constraint firstItem="rwf-f1-C14" firstAttribute="top" secondItem="fiU-gt-5UW" secondAttribute="bottom" constant="70" id="mam-Ty-fRq"/>
@@ -173,6 +176,9 @@
                                 <state key="normal" title="トップに戻る">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
+                                <connections>
+                                    <segue destination="bfx-9w-bRO" kind="unwind" unwindAction="backWithSender:" id="uBv-Sa-nMa"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="0.1227830728" green="0.4298461294" blue="0.063586811810000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -188,6 +194,7 @@
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="azO-yo-1Jt" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <exit id="bfx-9w-bRO" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
             <point key="canvasLocation" x="1718.840579710145" y="113.83928571428571"/>
         </scene>
@@ -210,13 +217,13 @@
         <!--一覧-->
         <scene sceneID="fIC-xQ-NzC">
             <objects>
-                <tableViewController id="gSs-x7-SQn" customClass="LIstTableViewCell" sceneMemberID="viewController">
+                <tableViewController id="gSs-x7-SQn" customClass="ListTableViewController" customModule="WordList" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="k8U-HT-a3s" customClass="ListTableView">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="647"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="70" id="Llj-jP-iBz" customClass="ListTableViewCell" customModule="WordList" customModuleProvider="target">
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="cell" rowHeight="70" id="Llj-jP-iBz" customClass="ListTableViewCell" customModule="WordList" customModuleProvider="target">
                                 <rect key="frame" x="0.0" y="28" width="375" height="70"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="Llj-jP-iBz" id="geR-Bt-foI" customClass="ListTableViewCell" customModule="WordList" customModuleProvider="target">
@@ -238,6 +245,10 @@
                                             <nil key="highlightedColor"/>
                                         </label>
                                     </subviews>
+                                    <connections>
+                                        <outlet property="englishLabel" destination="gfO-Nu-tJF" id="fO1-8E-Ia9"/>
+                                        <outlet property="japaneseLabel" destination="6gn-BU-Mea" id="6Ht-GM-xpt"/>
+                                    </connections>
                                 </tableViewCellContentView>
                                 <connections>
                                     <outlet property="englishLabel" destination="gfO-Nu-tJF" id="cwT-3K-N5S"/>
@@ -252,7 +263,11 @@
                     </tableView>
                     <toolbarItems/>
                     <navigationItem key="navigationItem" title="一覧" id="T1S-00-7R3">
-                        <barButtonItem key="leftBarButtonItem" title="もどる" id="g2L-H9-Ycn"/>
+                        <barButtonItem key="leftBarButtonItem" title="もどる" id="g2L-H9-Ycn">
+                            <connections>
+                                <segue destination="bYy-Js-OaU" kind="unwind" unwindAction="backWithSender:" id="YLr-8p-WZf"/>
+                            </connections>
+                        </barButtonItem>
                         <barButtonItem key="rightBarButtonItem" systemItem="add" id="ABe-sc-gXN">
                             <connections>
                                 <segue destination="fLH-DF-ZA3" kind="show" id="h2I-sp-S0f"/>
@@ -262,6 +277,7 @@
                     <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="zqX-x1-pzn" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <exit id="bYy-Js-OaU" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
             <point key="canvasLocation" x="3316" y="120"/>
         </scene>
@@ -322,7 +338,11 @@
                         <viewLayoutGuide key="safeArea" id="cy6-pk-cVq"/>
                     </view>
                     <navigationItem key="navigationItem" title="新規追加" id="rln-Er-h7L">
-                        <barButtonItem key="rightBarButtonItem" title="Save" id="ERK-fr-hJ5"/>
+                        <barButtonItem key="rightBarButtonItem" title="Save" id="ERK-fr-hJ5">
+                            <connections>
+                                <action selector="saveWord" destination="fLH-DF-ZA3" id="tXK-Yh-iPW"/>
+                            </connections>
+                        </barButtonItem>
                     </navigationItem>
                     <connections>
                         <outlet property="englishTextField" destination="daN-Dp-Ooz" id="DAF-Cp-9e4"/>
